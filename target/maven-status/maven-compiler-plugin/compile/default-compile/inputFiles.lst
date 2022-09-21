@@ -6,10 +6,14 @@ D:\MEGA\PROGRAMMER\MovieRental\src\main\java\controller\UsuarioController.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletUsuarioLogin.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\controller\IPeliculaController.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\PruebaServlet.java
+D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletPeliculaDevolver.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\beans\Peliculas.java
+D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletAlquilerListar.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletTest.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\connection\DBConnection.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletPeliculaListar.java
+D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletUsuarioEliminar.java
+D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletUsuarioModificar.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\beans\Alquiler.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\beans\Usuario.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletUsuarioRegister.java
