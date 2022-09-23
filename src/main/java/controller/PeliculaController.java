@@ -11,8 +11,12 @@ import com.google.gson.Gson;
 import beans.Peliculas;
 import connection.DBConnection;
 
+
 public class PeliculaController implements IPeliculaController {
 
+    
+    
+    
     @Override
     public String listar(boolean ordenar, String orden) {
 
@@ -43,7 +47,7 @@ public class PeliculaController implements IPeliculaController {
 
                 Peliculas pelicula = new Peliculas(id, titulo, genero, autor, copias, novedad);
 
-                peliculas.add(gson.toJson(pelicula));
+                peliculas.add(gson.toJson(peliculas));
 
             }
         } catch (Exception ex) {
@@ -56,4 +60,31 @@ public class PeliculaController implements IPeliculaController {
 
     }
 
+    
+    
+    
+    
+    
+    @Override
+    public String sumarCantidad(int id) {
+
+        DBConnection con = new DBConnection();
+
+        String sql = "Update pelicula set copias = (Select copias from pelicula where id = " 
+                + id + ") + 1 where id = " + id;
+
+        try {
+            Statement st = con.getConnection().createStatement();
+            st.executeUpdate(sql);
+
+            return "true";
+        } catch (Exception ex) {
+            System.out.println(ex.toString());
+        } finally {
+            con.desconectar();
+        }
+
+        return "false";
+
+    }
 }

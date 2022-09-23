@@ -7,16 +7,16 @@ public class Alquiler {
     
     private int id;
     private String username;
-    private Date fechaAlquiler;
+    private Date fecha;
     private boolean novedad;
     private String genero;
 
     
     
-    public Alquiler(int id, String username, Date fechaAlquiler, boolean novedad, String genero) {
+    public Alquiler(int id, String username, Date fecha, boolean novedad, String genero) {
         this.id = id;
         this.username = username;
-        this.fechaAlquiler = fechaAlquiler;
+        this.fecha = fecha;
         this.novedad = novedad;
         this.genero = genero;
     }
@@ -39,12 +39,12 @@ public class Alquiler {
         this.username = username;
     }
 
-    public Date getFechaAlquiler() {
-        return fechaAlquiler;
+    public Date getfecha() {
+        return fecha;
     }
 
-    public void setFechaAlquiler(Date fechaAlquiler) {
-        this.fechaAlquiler = fechaAlquiler;
+    public void setfecha(Date fecha) {
+        this.fecha = fecha;
     }
 
     public boolean isNovedad() {
@@ -67,7 +67,7 @@ public class Alquiler {
     
     @Override
     public String toString() {
-        return "Alquiler{" + "id=" + id + ", username=" + username + ", fechaAlquiler=" + fechaAlquiler + ", novedad=" + novedad + ", genero=" + genero + '}';
+        return "Alquiler{" + "id=" + id + ", username=" + username + ", fecha=" + fecha + ", novedad=" + novedad + ", genero=" + genero + '}';
     }
     
 

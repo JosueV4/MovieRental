@@ -19,6 +19,7 @@ $(document).ready(function () {
     });
 });
 
+
 async function getUsuario() {
 
     await $.ajax({
