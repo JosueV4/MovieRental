@@ -28,6 +28,8 @@ $(document).ready(function () {
 
 });
 
+
+
 async function fillUsuario() {
     await $.ajax({
         type: "GET",
@@ -56,6 +58,7 @@ async function fillUsuario() {
         }
     });
 }
+
 
 function getAlquiladas(username) {
 
@@ -109,6 +112,8 @@ function mostrarHistorial(peliculas) {
         $("#historial-table").addClass("d-none");
     }
 }
+
+
 
 
 function devolverPelicula(id) {

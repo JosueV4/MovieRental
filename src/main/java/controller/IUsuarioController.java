@@ -26,5 +26,8 @@ public interface IUsuarioController {
     public String devolverPeliculas(String username, Map<Integer, Integer> copias);
 
     public String eliminar(String username);
+    
+    
+    public String restarDinero(String username, double nuevoSaldo);
 }
 
