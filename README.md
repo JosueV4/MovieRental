@@ -1,4 +1,3 @@
 # MovieRental
  
-![Uploading image.png…]()
 
