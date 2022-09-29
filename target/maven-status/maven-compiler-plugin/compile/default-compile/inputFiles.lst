@@ -1,10 +1,12 @@
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\controller\AlquilerController.java
+D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletPeliculaAlquilar.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\controller\IUsuarioController.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletUsuarioPedir.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\test\OperacionesBD.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\beans\Pelicula.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\controller\PeliculaController.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\controller\UsuarioController.java
+D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletUsuarioRestarDinero.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\ServletUsuarioLogin.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\controller\IPeliculaController.java
 D:\MEGA\PROGRAMMER\MovieRental\src\main\java\servlets\PruebaServlet.java

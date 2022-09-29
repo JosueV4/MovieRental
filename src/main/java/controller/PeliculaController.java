@@ -157,7 +157,6 @@ public class PeliculaController implements IPeliculaController {
         return "false";
 
     }
-    
-
+  
   
 }

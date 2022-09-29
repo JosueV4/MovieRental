@@ -206,8 +206,8 @@ public class UsuarioController implements IUsuarioController {
                 int id = pelicula.getKey();
                 int num_copias = pelicula.getValue();
 
-                String sql = "Update peliculas set copias = (Select copias + " + num_copias +
-                        " from peliculas where id = " + id + ") where id = " + id;
+                String sql = "Update pelicula set copias = (Select copias + " + num_copias +
+                        " from pelicula where id = " + id + ") where id = " + id;
 
                 Statement st = con.getConnection().createStatement();
                 st.executeUpdate(sql);
